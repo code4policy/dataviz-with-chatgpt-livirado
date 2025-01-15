@@ -1,0 +1,36 @@
+
+.bar {
+    fill: skyblue;
+    transition: fill 0.3s ease;
+}
+
+.bar:hover {
+    fill: steelblue;
+}
+
+.axis-label {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.chart-title {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-anchor: middle;
+}
+
+
+
+.axis-text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+#chart {
+    margin: 20px;
+    width: 100%;
+    overflow: visible;
+}
+
+.axis-text {
+    font-size: 12px;
+}
