@@ -1,14 +1,19 @@
+#chart {
+    margin: 20px;
+    width: 100%;
+    overflow: visible;
+}
 
 .bar {
-    fill: skyblue;
+    fill: gray;
     transition: fill 0.3s ease;
 }
 
 .bar:hover {
-    fill: steelblue;
+    fill: darkgray;
 }
 
-.axis-label {
+.axis-text {
     font-size: 12px;
     font-family: Arial, sans-serif;
 }
@@ -16,21 +21,27 @@
 .chart-title {
     font-size: 16px;
     font-family: Arial, sans-serif;
-    text-anchor: middle;
 }
 
+.toggle-button {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
 
+.toggle-button:hover {
+    background-color: darkgray;
+}
 
-.axis-text {
+.label {
     font-family: Arial, sans-serif;
-    font-size: 12px;
-}
-#chart {
-    margin: 20px;
-    width: 100%;
-    overflow: visible;
 }
 
-.axis-text {
-    font-size: 12px;
+.footnote {
+    font-family: Arial, sans-serif;
 }
